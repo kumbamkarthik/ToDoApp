@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To_do_app</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text1">Todo List</h1>
+      <h3>Today I need to perform the below tasks</h3>
+      <hr />
+      <div class="tasks">
+        <ul class="eachTasks">
+          <!-- <li class="eachLi">
+            <label class="pt1"><h4>Complete JS Assignment</h4></label
+            ><input type="checkbox" class="pt2" /><span class="material-symbols-outlined">
+              delete
+              </span>
+          </li> -->
+          <!-- <li class="eachLi">  
+            <label class="pt1"><h4>Complete JS Assignment</h4></label
+            ><input type="checkbox" class="pt2" /><span class="material-symbols-outlined">
+            delete
+            </span>`
+          </li>
+          <li class="eachLi">  
+            <label class="pt1"><h4>Complete JS Assignment</h4></label
+            ><input type="checkbox" class="pt2" /><span class="delete"
+              ><img class="pt3" src="./Images/deleteIcon.png" alt="delete"
+            /></span>
+          </li>
+          <li class="eachLi">  
+            <label class="pt1"><h4>Complete JS Assignment</h4></label
+            ><input type="checkbox" class="pt2" /><span class="delete"
+              ><img class="pt3" src="./Images/deleteIcon.png" alt="delete"
+            /></span>
+          </li> -->
+        </ul>
+        <div class="btns">
+          <button class="bt1"><strong>Clear Selected</strong></button>
+          <button class="bt2"><strong>Clear-ALL</strong></button>
+        </div>
+      </div>
+      <div class="addTasks">
+        <h3 class="tt1">Add to the Todo lists</h3>
+        <form action="index.html" class="form" method="post">
+          <input class="ct1" type="text" placeholder="new task" name="task" />
+          <button class="ct2" id="button" type="button">
+            <strong>ADD Item</strong>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

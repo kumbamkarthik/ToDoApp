@@ -1,0 +1,102 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #d29f40;
+}
+
+body .container {
+  border: 2px solid black;
+  padding: 2%;
+  background-color: #302d2d;
+  color: white;
+}
+
+body .container .text1 {
+  color: darkorchid;
+}
+
+body .container .text1:hover {
+  color: white;
+}
+
+body .container .tasks .eachTasks .eachLi {
+  margin: 2% 0%;
+  height: 100%;
+  border-radius: 2%;
+  background-color: #f0e5e5;
+  color: black;
+  list-style: circle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0%;
+  padding: 0% 2%;
+}
+
+body .container .tasks .eachTasks .eachLi .pt1 {
+  font-size: medium;
+  width: 85%;
+}
+
+body .container .tasks .eachTasks .eachLi input.pt2 {
+  height: 8vh;
+  width: 5%;
+}
+
+body .container .tasks .eachTasks .eachLi .material-symbols-outlined {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 6.5%;
+}
+
+body .container .tasks .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+body .container .tasks .btns .bt1 {
+  display: block;
+  padding: 1% 3%;
+  margin: 0% 2%;
+}
+
+body .container .tasks .btns .bt1:hover {
+  background: #dd3333;
+}
+
+body .container .tasks .btns .bt2 {
+  display: block;
+  padding: 1% 3%;
+  margin: 0% 2%;
+}
+
+body .container .tasks .btns .bt2:hover {
+  background: #dd3333;
+}
+
+body .container .addTasks .tt1:hover {
+  color: darkorchid;
+}
+
+body .container .addTasks .form .ct1 {
+  padding: 5%;
+  width: 57%;
+}
+
+body .container .addTasks .form .ct2 {
+  padding: 5%;
+}
+
+body .container .addTasks .form .ct2:hover {
+  background-color: green;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

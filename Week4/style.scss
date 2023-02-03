@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(210, 159, 64);
+  .container {
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgb(48, 45, 45);
+    color: white;
+    .text1 {
+      color: darkorchid;
+    }
+    .text1:hover{
+        color: white;
+    }
+    .tasks {
+      .eachTasks {
+        .eachLi {
+          margin: 2% 0%;
+          height: 100%;
+          border-radius: 2%;
+          background-color: rgb(240, 229, 229);
+          color: black;
+          list-style:circle;
+          display: flex;
+          padding-top: 0%;
+          padding: 0% 2%;
+          .pt1 {
+            font-size: medium;
+            width: 85%;
+          }
+          input.pt2{ 
+              height: 8vh;
+              width: 5%;
+          }
+          .material-symbols-outlined {
+            display: grid;
+            padding-top: 6.5%;
+          }
+        }
+      }
+      .btns{
+       display: flex;
+       justify-content: end;
+      .bt1{
+        display: block;
+          padding: 1% 3%;
+          margin: 0% 2%;
+      }
+      .bt1:hover{
+          background: rgb(221, 51, 51);
+      }
+      .bt2{
+        display: block;
+          padding: 1% 3%;
+          margin: 0% 2%;
+      }
+      .bt2:hover{
+        background: rgb(221, 51, 51);
+     }
+      }
+    }
+    .addTasks{
+        .tt1:hover{
+            color: darkorchid;;
+        }
+        .form{
+            // border: 2px solid white;
+            .ct1{
+               padding: 5%;
+               width: 57%;
+            }
+            .ct2{
+                padding: 5%;
+            }
+            .ct2:hover{
+                background-color: green;
+                color: white;
+            }
+        }
+    }
+  }
+}
